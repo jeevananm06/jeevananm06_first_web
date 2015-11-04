@@ -69,7 +69,30 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
+  margin:0 0 0 2;
 }
+
+div div li {
+	display:inline;
+  padding:5px;
+	border: 1px solid black;
+	font-weight:bold;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #444444;
+	border-radius: 5px;
+	background:#EEEEEE;
+	float:right;
+	margin:0 0 20px 0;
+  
+}
+ div p img{
+	
+	border-radius: 5px;
+	height:30px;
+	margin: 0 0 0 0;
+	
+ }
+ 
 
 h2 {
   padding-bottom: 10px;
@@ -103,7 +126,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: none;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -121,7 +144,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #F2F2F2; 
   text-decoration: underline;
 }
 
@@ -130,7 +153,13 @@ em {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: bold
+}
+h1 img {
+  height:100px;
+  margin: 0 10px 0 20px;
+  border-radius:5px;
+  float:left;
 }
 
 img {
@@ -269,6 +298,15 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+textarea {
+	border-radius:5px;
+	width:500px;
+}
+
+#navbar {
+	background:#EEEEEE;
 }
 
 #forkme_banner {
@@ -422,4 +460,26 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+
+
+/* contact page Styling */
+
+#contact_page {
+	background: #E9FFFF;
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+}
+#contact_form {
+	background: #E9FFFF;
+}
+
+input[type=text] {
+	border-radius:5px;
+
+}
+
+label {
+	font-weight:bold;
 }
